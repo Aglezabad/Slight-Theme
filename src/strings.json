@@ -1,21 +1,20 @@
 {
-    "footer": "Copyright &copy; Mark Lopez 2014. <a href='/humble-disclaimer/'>My Humble Disclaimer and Privacy Policy</a>.<br>Written under the <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.",
+    "footer": "Copyright &copy; UnivUnix 2015.<br>Written under the <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons Attribution-NoCommercial-ShareAlike 4.0 International License</a>.<br>Theme by <a href='https://silvenga.com/'>Mark Lopez</a>.",
 
     "enableDisques": true,
-    "disqusShortname": "silvenga-blog-ghost",
+    "disqusShortname": "univunix",
 
-    "twitter-link": "https://twitter.com/Silvenga",
-    "gPlus-link": "https://plus.google.com/+MarkLopez-Silvenga",
-    "linkedIn-link": "https://www.linkedin.com/in/marklopezlink/",
-    "facebook-link": "https://www.facebook.com/sea.marklopez",
-    "gitHub-link": "https://github.com/Silvenga",
+    "twitter-link": "https://twitter.com/UnivUnix",
+    "gPlus-link": "https://plus.google.com/b/107511248169675151833/",
+    "facebook-link": "https://www.facebook.com/univunix",
+    "gitHub-link": "https://github.com/UnivUnix",
 
-    "navLink1.text": "Browse Posts",
-    "navLink1.link": "/",
+    "navLink1.text": "",
+    "navLink1.link": "",
 
-    "navLink2.text": "My Projects",
-    "navLink2.link": "/projects/",
+    "navLink2.text": "",
+    "navLink2.link": "",
 
-    "navLink3.text": "About Me",
-    "navLink3.link": "/about/"
+    "navLink3.text": "",
+    "navLink3.link": ""
 }
