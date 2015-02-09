@@ -49,22 +49,28 @@ body {
         height: 100%;
         bottom: 0;
         width: @sidebar-width;
-        background-color: white;
+        background-color: #2d2d2d;
+        color: white;
         z-index: 10;
         transform: translateZ(0); // fixes: https://code.google.com/p/chromium/issues/detail?id=293926
         h1 {
             margin: 0;
-            font-size: 5em;
+            font-size: 3em;
 
             a {
+                color:inherit;
                 line-height: normal;
+            }
+
+            img {
+                vertical-align: middle;
             }
         }
     }
 
     @media only screen and (max-width: 1480px) {
         h1 {
-            font-size: 4em;
+            font-size: 3em;
         }
     }
 
@@ -88,6 +94,9 @@ body {
         h1 {
             margin: 0;
             font-size: 3em;
+            img {
+                visibility: none;
+            }
         }
 
         p {
