@@ -14,12 +14,12 @@
 <body class="{{body_class}}">
     <header class="header">
         <div class="fade">
+            {{#if @blog.logo}}
+            <a href="/">
+                <img src="{{@blog.logo}}" alt="{{@blog.title}}" />
+            </a>
+            {{/if}}
             <h1>
-                <a href="/">
-                    {{#if @blog.logo}}
-                    <img src="{{@blog.logo}}" alt="{{@blog.title}}" />
-                    {{/if}}
-                </a>
                 <a href="/">
                     {{@blog.title}}
                 </a>
