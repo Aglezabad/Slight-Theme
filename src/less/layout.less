@@ -28,6 +28,21 @@ body {
 @sidebar-width: 25%;
 
 .content {
+
+    .pagination {
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+
+        a {
+            display: inline-block;
+        }
+
+        span {
+            display: inline-block;
+        }
+    }
+
     @media @default {
         padding: 0 0 1em @sidebar-width;
         margin-top: 80px;
@@ -270,6 +285,14 @@ body {
 
         &:hover {
             background-color: darken(white,2%);
+        }
+    }
+
+    .featured {
+        background-color: @ft-post-elem-bg;
+
+        &:hover {
+            background-color: darken(@ft-post-elem-bg,2%);
         }
     }
 

@@ -3,14 +3,18 @@
         <div class="index-container flow">
             {{#foreach posts}}
             <a href="{{{url}}}">
+                {{#if featured}}
+                <section class="hover-parrent sliders featured">
+                {{else}}
                 <section class="hover-parrent sliders">
+                {{/if}}
                     <div class="post parent-table index-element">
                         <h4 class="left-cell">
                             {{title}}
                         </h4>
-                        <h4 class="right-cell righted index-date">
-                            {{date format='MMM D, YYYY'}}
-                        </h4>
+                        <time class="right-cell righted index-date" datetime="{{date format='YYYY-MM-DD'}}">
+                            {{date format='DD-MM-YYYY'}}
+                        </time>
                     </div>
                 </section>
             </a>
@@ -18,5 +22,5 @@
         </div>
     </div>
 </div>
-    {{!pagination}}
+{{pagination}}
  <!--{{!< default}}--> 
