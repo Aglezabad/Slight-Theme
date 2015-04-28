@@ -1,22 +1,14 @@
 {
-    "footer": "Copyright &copy; UnivUnix 2015.<br>Written under the <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons Attribution-NoCommercial-ShareAlike 4.0 International License</a>.<br>Theme by <a href='https://silvenga.com/'>Mark Lopez</a>.",
+    "footer": "Copyright &copy; UnivUnix 2015.<br>Written under the <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons Attribution-NoCommercial-ShareAlike 4.0 International License</a>.",
 
     "enableDisques": true,
     "disqusShortname": "univunix",
-
     "twitter-link": "https://twitter.com/UnivUnix",
     "gPlus-link": "https://plus.google.com/b/107511248169675151833/",
     "linkedIn-link": "",
     "youtube-link": "https://www.youtube.com/c/UnivUnix",
-    "facebook-link": "https://www.facebook.com/univunix",
+    "facebook-link": "",
     "gitHub-link": "https://github.com/UnivUnix",
 
-    "navLink1.text": "",
-    "navLink1.link": "",
-
-    "navLink2.text": "",
-    "navLink2.link": "",
-
-    "navLink3.text": "",
-    "navLink3.link": ""
+    "showLove": true
 }
